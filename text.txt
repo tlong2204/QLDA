@@ -1,0 +1,15 @@
+#include <iostream>
+
+int main() {
+    double side_length;  // Chiều dài cạnh của hình vuông
+    double area;         // Diện tích hình vuông
+
+    std::cout << "Nhập chiều dài cạnh của hình vuông: ";
+    std::cin >> side_length;
+
+    area = side_length * side_length;  // Tính diện tích hình vuông
+
+    std::cout << "Diện tích của hình vuông là: " << area << std::endl;
+
+    return 0;
+}
